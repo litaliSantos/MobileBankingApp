@@ -22,7 +22,7 @@ class MonthlyBalanceViewController: UIViewController {
     }
     
     // MARK: - Variables
-    var viewModel: TransactionsViewModel!
+    private var viewModel: TransactionsViewModel!
     
     // MARK: - Life cycle
     override func viewDidLoad() {

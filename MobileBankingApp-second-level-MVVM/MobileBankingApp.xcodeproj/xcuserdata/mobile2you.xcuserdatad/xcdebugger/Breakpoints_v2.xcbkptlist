@@ -7,38 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "86DAC26D-8AF1-44A0-B947-C965CB9356B7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MobileBankingApp/Views/AccountTransactions/AccountTransactionsViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "loadData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A6D8275A-F06C-4082-8445-3DD3A527948E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MobileBankingApp/Views/AccountTransactions/AccountTransactionsViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "setup()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2B08F792-BEFE-49DA-B8EA-4D1AD27AC8FF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -50,6 +18,54 @@
             endingLineNumber = "55"
             landmarkName = "testUpdateTransactionsResultsParsesData()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7DE5B59-8057-420A-B1A7-1084A41A4DCA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileBankingApp/Views/AccountTransactions/TransactionsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getTransactions(success:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7DE5B59-8057-420A-B1A7-1084A41A4DCA - a8745686a4ac047a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobileBankingApp.TransactionsViewModel.getTransactions(success: () -&gt; (), error: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "MobileBankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobile2you/Documents/Projects/MobileBankingApp/MobileBankingApp-second-level-MVVM/MobileBankingApp/Views/AccountTransactions/TransactionsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "E7DE5B59-8057-420A-B1A7-1084A41A4DCA - d27fc8092e8ecdd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MobileBankingApp.Transaction&gt;) -&gt; () in MobileBankingApp.TransactionsViewModel.getTransactions(success: () -&gt; (), error: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "MobileBankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mobile2you/Documents/Projects/MobileBankingApp/MobileBankingApp-second-level-MVVM/MobileBankingApp/Views/AccountTransactions/TransactionsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

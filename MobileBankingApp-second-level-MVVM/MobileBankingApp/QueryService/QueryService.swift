@@ -16,7 +16,7 @@ class QueryService {
     let getCategories = "https://desafio-it-server.herokuapp.com/categorias"
     
     // MARK: - Variables And Properties
-    var defaultSession: DHURLSession = URLSession(configuration: URLSessionConfiguration.default)
+    var defaultSession = URLSession(configuration: URLSessionConfiguration.default)
     var dataTask: URLSessionDataTask?
     var errorMessage = ""
     var transactions: [Transaction] = []
@@ -27,6 +27,7 @@ class QueryService {
     typealias SuccessResultGetTransactions = ([Transaction]) -> ()
     typealias SuccessResultGetCategories = ([Category]) -> ()
     typealias ErrorResult = (String) -> ()
+    typealias SuccessCreatedCategory = (String) -> ()
     
     // MARK: - Internal Methods
     func getTransactions(success: @escaping SuccessResultGetTransactions, onError: @escaping ErrorResult) {
